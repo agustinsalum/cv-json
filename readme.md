@@ -1,0 +1,81 @@
+# Crea tu propio CV con JSON-RESUME
+
+Puedes crear tu propio CV para desarrolladores con [jsonresume](https://jsonresume.org/).
+
+## Instalacion/actualizacion de npm
+
+Asegurate de tener la version 18 de npm. Puedes actualizarla ejecutando los siguientes comandos:
+
+```
+sudo npm cache clean -f
+```
+
+```
+sudo npm install -g n
+```
+
+```
+sudo n stable
+```
+
+## Creando el archivo resume.json
+
+Debemos crear el archivo resume.json:
+
+```
+resume init
+```
+
+Validamos que no tenga errores:
+
+```
+validate resume.json
+```
+
+## Correr el CV
+
+Para correr el CV:
+
+```
+validate serve 
+```
+
+> Lo muestra con el theme por defecto
+
+- Si desea visualizar otro theme debe agregar --[nombre theme]
+
+```
+validate serve --theme elegant 
+```
+
+> Ejemplo utilizando el tema elegant
+
+```
+validate serve --theme even 
+```
+> Ejemplo utilizando el tema event
+
+
+```
+validate serve --theme kendall 
+```
+> Ejemplo utilizando el tema kendall
+
+## Exportar el PDF usando un tema:
+
+- Se necesita instalar primero el theme que queres descargar como PDF, para eso seguimos los siguentes pasos suponiendo que vamos a descargarlo con el tema kendall:
+
+- Crea la carpeta "node_modules" (en el directorio donde esta public, package y resume)
+- Dentro de la carpeta node_modules crea la carpeta "jsonresume-theme-kendall"
+
+Por ultimo, ejecutamos los siguientes comandos:
+
+```
+npm install jsonresume-theme-kendall
+```
+
+```
+resume export resume.pdf --theme ./node_modules/jsonresume-theme-kendall
+```
+
+> El ejemplo exporta con el theme kendall
