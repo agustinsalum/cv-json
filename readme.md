@@ -67,6 +67,7 @@ resume serve --theme kendall
 
 - Crea la carpeta "node_modules" (en el directorio donde esta public, package y resume)
 - Dentro de la carpeta node_modules crea la carpeta "jsonresume-theme-kendall"
+- Por ultimo, creamos el archivo index.js en la carpeta "jsonresume-theme-kendall"
 
 Por ultimo, ejecutamos los siguientes comandos:
 
