@@ -49,6 +49,7 @@ resume serve
 ```
 > Lo muestra con el theme por defecto
 
+
 Si desea visualizar otro theme debe agregar --theme [nombre theme]
 
 ```
