@@ -20,7 +20,7 @@ sudo n stable
 
 ## Instalacion de resume cli
 
-Una vez que tenemos actualizado el npm instalamos resume-cli
+Una vez que tenemos actualizado el npm instalamos resume-cli:
 
 ```
 npm install -g resume-cli
