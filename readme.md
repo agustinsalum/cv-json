@@ -1,4 +1,4 @@
-# Crea tu propio CV con JSON-RESUME
+# Crea tu propio CV con Json-Resume
 
 Puedes crear tu propio CV para desarrolladores con [jsonresume](https://jsonresume.org/).
 
@@ -37,7 +37,7 @@ validate resume.json
 Para correr el CV:
 
 ```
-validate serve 
+resume serve 
 ```
 
 > Lo muestra con el theme por defecto
@@ -45,19 +45,19 @@ validate serve
 - Si desea visualizar otro theme debe agregar --[nombre theme]
 
 ```
-validate serve --theme elegant 
+resume serve --theme elegant 
 ```
 
 > Ejemplo utilizando el tema elegant
 
 ```
-validate serve --theme even 
+resume serve --theme even 
 ```
 > Ejemplo utilizando el tema event
 
 
 ```
-validate serve --theme kendall 
+resume serve --theme kendall 
 ```
 > Ejemplo utilizando el tema kendall
 
