@@ -18,6 +18,14 @@ sudo npm install -g n
 sudo n stable
 ```
 
+## Instalacion de resume cli
+
+Una vez que tenemos actualizado el npm instalamos resume-cli
+
+```
+npm install -g resume-cli
+```
+
 ## Creando el archivo resume.json
 
 Debemos crear el archivo resume.json:
@@ -65,9 +73,9 @@ resume serve --theme kendall
 
 - Se necesita instalar primero el theme que queres descargar como PDF, para eso seguimos los siguentes pasos suponiendo que vamos a descargarlo con el tema kendall:
 
-- Crea la carpeta "node_modules" (en el directorio donde esta public, package y resume)
-- Dentro de la carpeta node_modules crea la carpeta "jsonresume-theme-kendall"
-- Por ultimo, creamos el archivo index.js en la carpeta "jsonresume-theme-kendall"
+- Crea la carpeta `node_modules` (en el directorio donde esta public, package y resume)
+- Dentro de la carpeta `node_modules` crea la carpeta `jsonresume-theme-kendall`
+- Por ultimo, creamos el archivo `index.js` en la carpeta `jsonresume-theme-kendall`
 
 Por ultimo, ejecutamos los siguientes comandos:
 
