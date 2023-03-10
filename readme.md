@@ -47,15 +47,13 @@ Para correr el CV:
 ```
 resume serve 
 ```
-
 > Lo muestra con el theme por defecto
 
-- Si desea visualizar otro theme debe agregar --[nombre theme]
+Si desea visualizar otro theme debe agregar --theme [nombre theme]
 
 ```
 resume serve --theme elegant 
 ```
-
 > Ejemplo utilizando el tema elegant
 
 ```
