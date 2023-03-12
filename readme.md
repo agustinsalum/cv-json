@@ -37,7 +37,7 @@ resume init
 Validamos que no tenga errores:
 
 ```
-validate resume.json
+resume validate resume.json
 ```
 
 ## Correr el CV
